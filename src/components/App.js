@@ -87,71 +87,53 @@ const App = () => {
                 <h2 class="section__title section__title--work">My Work</h2>
                 <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
 
-                {/* Portfolio item 1 */}
                 <div class="portfolio">
+                    {/* Portfolio item 1 */}
                     <a href="#" class="portfolio__item">
                         <img src={portfolio01} alt="" class="portfolio__img"/>
                     </a>
-                </div>
 
-                {/* Portfolio item 2 */}
-                <div class="portfolio">
+                    {/* Portfolio item 2 */}
                     <a href="#" class="portfolio__item">
                         <img src={portfolio02} alt="" class="portfolio__img"/>
                     </a>
-                </div>
 
-                {/* Portfolio item 3 */}
-                <div class="portfolio">
+                    {/* Portfolio item 3 */}
                     <a href="#" class="portfolio__item">
                         <img src={portfolio03} alt="" class="portfolio__img"/>
                     </a>
-                </div>
 
-                {/* Portfolio item 4 */}
-                <div class="portfolio">
+                    {/* Portfolio item 4 */}
                     <a href="#" class="portfolio__item">
                         <img src={portfolio04} alt="" class="portfolio__img"/>
                     </a>
-                </div>
 
-                {/* Portfolio item 5 */}
-                <div class="portfolio">
+                    {/* Portfolio item 5 */}
                     <a href="#" class="portfolio__item">
                         <img src={portfolio05} alt="" class="portfolio__img"/>
                     </a>
-                </div>
 
-                {/* Portfolio item 6 */}
-                <div class="portfolio">
+                    {/* Portfolio item 6 */}
                     <a href="#" class="portfolio__item">
                         <img src={portfolio06} alt="" class="portfolio__img"/>
                     </a>
-                </div>
 
-                {/* Portfolio item 7 */}
-                <div class="portfolio">
+                    {/* Portfolio item 7 */}
                     <a href="#" class="portfolio__item">
                         <img src={portfolio07} alt="" class="portfolio__img"/>
                     </a>
-                </div>
 
-                {/* Portfolio item 8 */}
-                <div class="portfolio">
+                    {/* Portfolio item 8 */}
                     <a href="#" class="portfolio__item">
                         <img src={portfolio08} alt="" class="portfolio__img"/>
                     </a>
-                </div>
 
-                {/* Portfolio item 9 */}
-                <div class="portfolio">
+                    {/* Portfolio item 9 */}
                     <a href="#" class="portfolio__item">
                         <img src={portfolio09} alt="" class="portfolio__img"/>
                     </a>
-                </div>
 
-                {/* Portfolio item 10 */}
-                <div class="portfolio">
+                    {/* Portfolio item 10 */}
                     <a href="#" class="portfolio__item">
                         <img src={portfolio10} alt="" class="portfolio__img"/>
                     </a>
@@ -159,14 +141,14 @@ const App = () => {
             </section>
 
             {/* Footer */}
-            <footer>
+            <footer class="footer">
                 {/* Replace with your own email address */}
                 <a href="mailto:hello@jane.dev" class="footer__link">hello@jane.dev</a>
                 <ul class="social-list">
-                    <li class="social-list__item"><a class="social-list__link" href="https://codepen.io">Codepen</a></li>
-                    <li class="social-list__item"><a class="social-list__link" href="https://dribble.com">Dribble</a></li>
-                    <li class="social-list__item"><a class="social-list__link" href="https://twitter.com">Twitter</a></li>
-                    <li class="social-list__item"><a class="social-list__link" href="https://github.com">GitHub</a></li>
+                    <li class="social-list__item"><a class="social-list__link" href="https://codepen.io"><i class="fab fa-codepen"></i></a></li>
+                    <li class="social-list__item"><a class="social-list__link" href="https://dribble.com"><i class="fab fa-dribbble"></i></a></li>
+                    <li class="social-list__item"><a class="social-list__link" href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                    <li class="social-list__item"><a class="social-list__link" href="https://github.com"><i class="fab fa-github"></i></a></li>
                 </ul>
             </footer>
         </>
